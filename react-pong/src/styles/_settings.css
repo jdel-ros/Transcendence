@@ -1,0 +1,37 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body {
+	color: #EDDCD1;
+	background-color: #2A455E;
+}
+li {
+	list-style-type: none;
+}
+a {
+	text-decoration: none;
+	color: #BD6D30;
+	cursor: pointer;
+}
+
+::-webkit-scrollbar {
+	width: 5px;
+    height: 4px;
+    background-color: transparent;
+}
+
+  ::-webkit-scrollbar-corner {
+    background-color: transparent;
+}
+  
+::-webkit-scrollbar-thumb {
+    border: none;
+    border-radius: 4px;
+    background-color: #607d8b;
+}
+
+::-webkit-scrollbar-track {
+    background: 0 0;
+}

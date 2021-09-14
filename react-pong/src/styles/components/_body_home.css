@@ -1,0 +1,529 @@
+/* *************************** PODIUM ************************** */
+
+#the-box {
+	font-size: 2vh;
+	margin-left: 15vw;
+	margin-right: 15vw;
+	margin-top: 10vh;
+	margin-bottom: 3vh;
+	width: 70vw;
+	height: 30vh;
+	border-radius: 3vh;
+	background-color: rgb(54, 64, 83);
+}
+
+#deuxieme-place {
+	position: relative;
+	top: 15vh;
+	left: 5vw;
+	
+	width: 20vw;
+	height: 15vh;
+	border-top-left-radius: 1.5vh;
+	/*background-color: pink;*/
+	background-color: rgb(91, 96, 117);
+}
+#deuxieme-place li {
+	position: relative;
+
+	text-align: center;
+	top: 3vh;
+	color: silver;
+}
+
+#premiere-place {
+	position: relative;
+	top: -7vh;
+	left: 25vw;
+	
+	width: 20vw;
+	height: 22vh;
+	border-top-left-radius: 1.5vh;
+	border-top-right-radius: 1.5vh;
+	/*background-color: white;*/
+	background-color: rgb(91, 110, 128);
+}
+#premiere-place li {
+	position: relative;
+
+	text-align: center;
+	top: 3vh;
+	color: gold;
+}
+
+#troisieme-place {
+	position: relative;
+	top: -17vh;
+	left: 45vw;
+	
+	width: 20vw;
+	height: 10vh;
+	border-top-right-radius: 1.5vh;
+	/*background-color: black;*/
+	background-color: rgb(33, 55, 75);
+}
+#troisieme-place li {
+	position: relative;
+
+	text-align: center;
+	top: 3vh;
+	color: #A07155;
+}
+
+/* *************************** Game name ************************** */
+
+#title-game {
+	line-height: 5.25vh;
+
+	font-size: 3vh;
+	font-weight: bold;
+
+	position: relative;
+	text-align: center;
+	font-weight: bold;
+	
+
+	margin-left: 15vw;
+	margin-top: 5%;
+	height: 5vh;
+	width: 70vw;
+
+	border-top-left-radius: 2vh;
+	border-top-right-radius: 2vh;
+	background-color: rgb(54, 64, 83);
+}
+
+/* *************************** Game box ************************** */
+
+#box-game {
+	position: relative;
+
+	margin-left: 15vw;
+	height: 30vh;
+	width: 70vw;
+
+
+	background-color: #3D6387;
+}
+
+#left-racket {
+	position: relative;
+
+	margin-left: 3%;
+	top: 3vh;
+
+	height: 7vh;
+	width: 2vh;
+	border-radius: 2vh;
+
+	background-color: #BD6D30;
+}
+
+#right-racket {
+	position: relative;
+
+	left: 94%;
+	top: 10vh;
+
+	height: 7vh;
+	width: 2vh;
+	border-radius: 2vh;
+
+	background-color: #BD6D30;
+}
+
+#ball {
+	position: relative;
+
+	left: 30%;
+	top: 25%;
+
+	height: 2.5vh;
+	width: 2.5vh;
+	border-radius: 100%;
+
+	background-color: black;
+}
+
+/* *************************** Game choose ************************** */
+
+#choose-game {
+	font-size: 2vh;
+	font-weight: bold;
+	
+	position: relative;
+
+	margin-left: 15vw;
+	height: 10vh;
+	width: 70vw;
+	
+	border-bottom-left-radius: 2vh;
+	border-bottom-right-radius: 2vh;
+
+	background-color: rgb(54, 64, 83);
+}
+
+#choose-game :hover{
+	transition: 0.5s;
+	background-color: #EDDCD1;
+	
+	transform: scale(1.2);
+	color: #BD6D30;
+}
+
+#boutton-normal {
+	display: block;
+	transition: 0.5s;
+	text-align: center;
+	line-height: 5.25vh;
+
+	position: relative;
+	cursor: pointer;
+
+	top: 2.5vh;
+	margin-left: 10%;
+	
+	height: 5vh;
+	width: 15vw;
+
+	border-radius: 1vh;
+	color: #EDDCD1;
+	background-color: rgb(91, 110, 128);
+}
+
+#boutton-ranked {
+	display: block;
+	transition: 0.5s;
+	text-align: center;
+	line-height: 5.25vh;
+
+	position: relative;
+	cursor: pointer;
+
+	margin-left: 1.5vw;
+	left: 40%;
+	bottom: 2.5vh;
+	
+	height: 5vh;
+	width: 15vw;
+
+	border-radius: 1vh;
+	color: #EDDCD1;
+	background-color: rgb(91, 110, 128);
+}
+
+#boutton-mod {
+	display: block;
+	transition: 0.5s;
+	text-align: center;
+	line-height: 5.25vh;
+
+	position: relative;
+	cursor: pointer;
+
+	margin-left: 1.5vw;
+	left: 70%;
+	bottom: 7.5vh;
+	
+	height: 5vh;
+	width: 15vw;
+
+	border-radius: 1vh;
+	color: #EDDCD1;
+	background-color: rgb(91, 110, 128);
+}
+
+
+/* *************************** Challenge ************************** */
+
+#challenge-bar {
+	position: relative;
+	border-radius: 5vh;
+	top: 1vh;
+	margin-left: 25%;
+	width: 50%;
+
+	background-color: #3D6387;
+}
+
+#chall-nb {
+	width: 25%;
+	border-radius: 5vh;
+	background-color: #BD6D30;
+	
+	text-align: center;
+	font-size: 2vh;
+}
+
+#box-challenge {
+	position: relative;
+	margin-top: 5vh;
+	margin-left: 15vw;
+	margin-bottom: 5vh;
+	height: 31vh;
+	width: 70vw;
+	border-radius: 3vh;
+	background-color: rgb(54, 64, 83);
+}
+
+#chall-avance {
+	text-align: center;
+	font-weight: bold;
+	font-size: 2vh;
+	color: #BD6D30;
+}
+
+/*   CHALL 4 BOX   */
+
+#box-challenge li {
+	position: absolute;
+	left: 25%;
+	top: 35%;
+	font-weight: bold;
+	font-size: 2vh;
+}
+
+.pict-top-left{
+	position: absolute;
+	top: 25%;
+	width: 20%;
+	height: 20%;
+}
+
+#chall-top-left {
+	border-width:2px;
+	border-color: red;
+	border-style: solid;
+
+	position: absolute;
+	margin-top: 2.5vh;
+	left: 4%;
+	border-radius: 0.5vh;
+	background-color: #3D6387;
+	height: 36%;
+	width: 45%;
+}
+
+#chall-top-left.achivement-done {
+	border-color: green;
+}
+
+.pict-top-right{
+	position: absolute;
+	top: 25%;
+	width: 115%;
+	height: 20%;
+}
+
+#chall-top-right {
+	border-width:2px;
+	border-color: red;
+	border-style: solid;
+
+	position: absolute;
+	left: 51%;
+	margin-top: 2.5vh;
+	border-radius: 0.5vh;
+	background-color: #3D6387;
+	height: 36%;
+	width: 45%;
+}
+#chall-top-right.achivement-done {
+	border-color: green;
+}
+
+#chall-bot-left {
+	border-width:2px;
+	border-color: red;
+	border-style: solid;
+
+	position: absolute;
+	bottom: 6%;
+	left: 4%;
+
+	border-radius: 0.5vh;
+	background-color: #3D6387;
+	height: 36%;
+	width: 45%;
+}
+.pict-bot-left{
+	position: absolute;
+	top: 65%;
+	width: 20%;
+	height: 20%;
+}
+#chall-bot-left.achivement-done {
+	border-color: green;
+}
+
+#chall-bot-right {
+	border-width:2px;
+	border-color: red;
+	border-style: solid;
+
+	position: absolute;
+	left: 51%;
+	bottom: 6%;
+
+	border-radius: 0.5vh;
+	background-color: #3D6387;
+	height: 36%;
+	width: 45%;
+}
+.pict-bot-right{
+	position: absolute;
+	top: 65%;
+	width: 115%;
+	height: 20%;
+}
+#chall-bot-right.achivement-done {
+	border-color: green;
+}
+
+/* *************************** LIVE GAME ************************** */
+
+.Live li{
+	font-weight: bold;
+}
+
+#Live-box{
+	position: relative;
+	margin-left: 15vw;
+	margin-bottom: 5vh;
+	height: 35vh;
+	width: 70vw;
+
+
+	background-color: rgb(54, 64, 83);
+	border-radius: 3vh;
+}
+#Title-live {
+	text-align: center;
+
+	font-size: 3vh;
+	font-weight: bold;
+}
+
+.Live:hover{
+	transition: 0.5s;
+	background-color: rgba(38, 45, 56, 0.25);
+	
+	transform: scale(1.07);
+	color: #BD6D30;
+}
+
+.namej1 {
+	top: 2%;
+	position: absolute;
+	text-align: center;
+}
+
+.score-j1 {
+	top: 2%;
+	left: 40%;
+	position: absolute;
+	text-align: center;
+}
+
+.namej2 {
+	top: 2%;
+	right: 0%;
+	position: absolute;
+	text-align: center;
+}
+
+.score-j2 {
+	top: 2%;
+	right: 40%;
+	position: absolute;
+	text-align: center;
+}
+
+#Live-1{
+	cursor: pointer;
+	transition: 0.5s;
+	position: absolute;
+	top: 20%;
+	left: 2.5%;
+	border-radius: 0.5vh;
+	height: 70%;
+	width: 30%;
+}
+
+.Live-back{
+	width: 100%;
+	height: 100%;
+	border-radius: 0.5vh;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 50% 50%;
+    margin-right: 1rem;
+	z-index: 4;
+}
+
+#Live-2{
+	cursor: pointer;
+	transition: 0.5s;
+	position: absolute;
+	top: 20%;
+	left: 35%;
+	border-radius: 0.5vh;
+	height: 70%;
+	width: 30%;
+}
+
+#Live-3{
+	cursor: pointer;
+	transition: 0.5s;
+	position: absolute;
+	top: 20%;
+	right: 2.5%;
+	border-radius: 0.5vh;
+	height: 70%;
+	width: 30%;
+}
+
+@media only screen and (max-width:960px) {
+	.namej1 {
+		left: 50%;
+		transform: translate(-50%);
+		position: absolute;
+		text-align: center;
+	}
+	
+	.score-j1 {
+		left: 90%;
+		position: absolute;
+		text-align: center;
+	}
+	
+	.namej2 {
+		left: 0;
+		top: 20%;
+		position: absolute;
+		text-align: center;
+	}
+	
+	.score-j2 {
+		left: 90%;
+		top: 20%;
+		position: absolute;
+		text-align: center;
+	}
+
+	.pict-top-left{
+		height: 15%;
+	}
+
+	.pict-top-right{
+		height: 15%;
+	}
+
+	.pict-bot-left{
+		height: 15%;
+	}
+
+	.pict-bot-right{
+		height: 15%;
+	}
+}

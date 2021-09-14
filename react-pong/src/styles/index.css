@@ -1,0 +1,67 @@
+@import "./components/_navigation.css";
+@import "./components/_matchMaking.css";
+@import "./components/_body_home.css";
+@import "./components/_footer.css";
+@import "./components/_tchat.css";
+@import "./_settings.css";
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+
+.liveGames{
+  display: grid;
+  margin-top:5vh;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: 100px;
+  text-align: center;
+  /* position:absolute; */
+  vertical-align: middle;
+}
+
+#start {
+  margin-left: auto;
+  margin-right: auto;
+  left: 50%;
+  transform: translate(-50%,+50%);
+
+}
+.liveGame1 {
+  flex: 1;                        /* 2. */
+  border: 1px solid chocolate;
+  vertical-align: middle;
+}
+.liveGame2 {
+  flex: 1;                        /* 2. */
+  border: 1px solid chocolate;
+}
+.liveGame3 {
+  flex: 1;                        /* 2. */
+  border: 1px solid chocolate;
+}
+.liveGame4 {
+  flex: 1;                        /* 2. */
+  border: 1px solid chocolate;
+}
+.liveGame5 {
+  flex: 1;                        /* 2. */
+  border: 1px solid chocolate;
+}
+.liveGame6 {
+  flex: 1;                        /* 2. */
+  border: 1px solid chocolate;
+}

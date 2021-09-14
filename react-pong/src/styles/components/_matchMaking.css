@@ -1,0 +1,37 @@
+#GameMenu{
+	font-size: 2vh;
+	margin-left: 25vw;
+	margin-right: 25vw;
+	margin-top: 20vh;
+	width: 50vw;
+	min-width: 450px;
+	height: 60vh;
+	min-height: 450px;
+	border-radius: 3vh;
+	background: url("versus.svg") no-repeat center center;
+	background-color: rgb(54, 64, 83);
+	position: relative;
+}
+#GameMenu li{
+	font-size: 2vh;
+	font-weight: bold;
+	text-align: center;
+	
+}
+
+.player_img{
+	min-width: 60px;
+	width: 5vw;
+	border-radius: 3vh;
+}
+
+#player1{
+	position:absolute;
+}
+
+#player2{
+	position:absolute;
+	bottom:-0.3vh;
+	left: 100%;
+	transform: translate(-100%);
+}

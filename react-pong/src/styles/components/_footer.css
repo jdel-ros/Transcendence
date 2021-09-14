@@ -1,0 +1,16 @@
+/* *************************** FOOTER ************************** */
+
+footer {
+	background-color: #2C3E50;
+	color: #BD6D30;
+	text-align: center;
+	bottom:0;
+	width:100%;
+	font-size: 1.3vh;
+}
+
+#icons a {
+	color: white;
+	margin: 0 2vh;
+	font-size: 2.5vh;
+}

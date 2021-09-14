@@ -1,0 +1,48 @@
+#gameField {
+  margin-left:18vw;
+  margin-top:9vh;
+}
+
+/*----------------SCORE----------------*/
+#score {
+	display: flex;
+	border: 1px solid #1D3142;
+}
+
+#dataP1 {
+	display:flex;
+  align-items: center;
+}
+
+.score {
+	/* width: ; */
+}
+
+#scoreP1 {
+	display:flex;
+	margin-left: auto;
+	justify-content: center;
+	align-items: center;
+	background-color: blue;
+}
+
+#dataP2 {
+	display:flex;
+	align-items: center;
+}
+
+#scoreP2 {
+	display:flex;
+	margin-right: auto;
+	justify-content: center;
+	align-items: center;
+	background-color: green;
+}
+
+#pong {
+  border: 1px solid #1D3142;
+}
+
+#canvas {
+	background-size: 100%;
+}
